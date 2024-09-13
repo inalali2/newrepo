@@ -82,11 +82,19 @@ status_date: Date of the status update of the grant application.
 3. Project Assumptions
 
 Principal Investigator and Collaborators: Only the principal investigator applies for the grant. Other researchers involved are listed as collaborators.
+
 Funds Allocation: Funds are designated to the principal investigator, who is responsible for distribution.
+
 Reviewers: Each application will have three reviewers. Reviewers provide reviews in Boolean form (1 for granted, 0 for denial).
+
 Meeting Participants: Only reviewers participate in meetings discussing grant applications.
+
 Decision Making Process: Decisions are made during meetings, with applications discussed on specific dates. Multiple applications may be discussed on the same date, but no additional dates are assigned.
+
 Automatic Award Generation: If at least two out of three reviewers recommend granting money, the award will be granted automatically.
+
 Automatic Status Update: The status of an application will be updated to "Awarded" if at least two reviewers recommend granting money.
+
 Amount Awarded Constraint: The amount awarded is always less than the requested amount.
+
 Automatic Status Date Update: The status_date attribute is automatically updated after meetings to reflect the decision date.
